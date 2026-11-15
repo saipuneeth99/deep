@@ -1,0 +1,15 @@
+                precision    recall  f1-score   support
+
+  Chinee apple     0.8554    0.8402    0.8478       169
+       Lantana     0.8239    0.9062    0.8631       160
+   Parkinsonia     0.8492    0.9806    0.9102       155
+    Parthenium     0.7579    0.9412    0.8397       153
+Prickly acacia     0.8315    0.9308    0.8783       159
+   Rubber vine     0.8314    0.9470    0.8854       151
+     Siam weed     0.8108    0.9317    0.8671       161
+    Snake weed     0.6618    0.8824    0.7563       153
+      Negative     0.9847    0.8485    0.9115      1366
+
+      accuracy                         0.8824      2627
+     macro avg     0.8229    0.9121    0.8621      2627
+  weighted avg     0.8978    0.8824    0.8849      2627

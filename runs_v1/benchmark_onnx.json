@@ -1,0 +1,56 @@
+[
+  {
+    "model": "runs/mobilenet_v3_small/model.onnx",
+    "size_mb": 6.117946,
+    "latency_ms": 3.186520999999942,
+    "fps": 313.82187658578687
+  },
+  {
+    "model": "runs/shufflenet_v2/model.onnx",
+    "size_mb": 5.146127,
+    "latency_ms": 2.5111664999999395,
+    "fps": 398.22130472034576
+  },
+  {
+    "model": "runs/weednet_lite/model.onnx",
+    "size_mb": 1.891692,
+    "latency_ms": 2.742208500000065,
+    "fps": 364.66957198913803
+  },
+  {
+    "model": "runs/mobilenet_v3_small/model.fp16.onnx",
+    "size_mb": 3.087014,
+    "latency_ms": 3.422229499999929,
+    "fps": 292.20717079319803
+  },
+  {
+    "model": "runs/shufflenet_v2/model.fp16.onnx",
+    "size_mb": 2.687919,
+    "latency_ms": 2.823875000000031,
+    "fps": 354.1233234473866
+  },
+  {
+    "model": "runs/weednet_lite/model.fp16.onnx",
+    "size_mb": 0.964821,
+    "latency_ms": 2.8874374999999786,
+    "fps": 346.3278425939981
+  },
+  {
+    "model": "runs/mobilenet_v3_small/model.int8.onnx",
+    "size_mb": 1.87618,
+    "latency_ms": 0.971312000000113,
+    "fps": 1029.5353089428359
+  },
+  {
+    "model": "runs/shufflenet_v2/model.int8.onnx",
+    "size_mb": 1.645331,
+    "latency_ms": 1.692916499999919,
+    "fps": 590.6965878116539
+  },
+  {
+    "model": "runs/weednet_lite/model.int8.onnx",
+    "size_mb": 0.67892,
+    "latency_ms": 1.8357705000000557,
+    "fps": 544.7304006682588
+  }
+]

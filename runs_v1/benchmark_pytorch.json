@@ -1,0 +1,44 @@
+[
+  {
+    "model": "weednet_lite",
+    "params_m": 0.470297,
+    "size_mb": 1.881188,
+    "latency_ms": 7.612646000000112,
+    "fps": 131.36037062540217
+  },
+  {
+    "model": "mobilenet_v3_small",
+    "params_m": 1.527081,
+    "size_mb": 6.108324,
+    "latency_ms": 28.722499999999982,
+    "fps": 34.815910871268194
+  },
+  {
+    "model": "mobilenet_v3_large",
+    "params_m": 4.213561,
+    "size_mb": 16.854244,
+    "latency_ms": 40.51643750000045,
+    "fps": 24.681340752132733
+  },
+  {
+    "model": "efficientnet_b0",
+    "params_m": 4.019077,
+    "size_mb": 16.076308,
+    "latency_ms": 83.05087500000008,
+    "fps": 12.040812333404062
+  },
+  {
+    "model": "shufflenet_v2",
+    "params_m": 1.262829,
+    "size_mb": 5.051316,
+    "latency_ms": 11.260541500000443,
+    "fps": 88.80567599701672
+  },
+  {
+    "model": "squeezenet",
+    "params_m": 0.727113,
+    "size_mb": 2.908452,
+    "latency_ms": 2.811832999999986,
+    "fps": 355.6398975330345
+  }
+]

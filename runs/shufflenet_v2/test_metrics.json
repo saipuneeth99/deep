@@ -1,0 +1,9 @@
+{
+  "accuracy": 0.9192359249329759,
+  "macro_f1": 0.9089345780462933,
+  "weighted_f1": 0.920122004211002,
+  "deepweeds_acc": 0.9086410354015988,
+  "deepweeds_macro_f1": 0.8990122366704525,
+  "field_images_rejected_as_outlier": 0.0,
+  "outlier_recall": 0.9971988795518207
+}

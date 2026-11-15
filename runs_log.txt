@@ -1,0 +1,20 @@
+model                                          params(M)  size(MB)  latency(ms)     FPS
+weednet_lite                                        0.47      1.88         7.61   131.4
+mobilenet_v3_small                                  1.53      6.11        28.83    34.7
+mobilenet_v3_large                                  4.21     16.85        40.55    24.7
+efficientnet_b0                                     4.02     16.08        83.03    12.0
+shufflenet_v2                                       1.26      5.05        11.34    88.2
+squeezenet                                          0.73      2.91         2.84   352.3
+saved -> runs/benchmark_pytorch.json
+model                                          params(M)  size(MB)  latency(ms)     FPS
+runs/mobilenet_v3_small/model.onnx                     -      6.13         3.12   320.9
+runs/shufflenet_v2/model.onnx                          -      5.17         2.61   383.8
+runs/weednet_lite/model.onnx                           -      1.90         2.88   347.4
+runs/mobilenet_v3_small/model.fp16.onnx                -      3.09         3.54   282.7
+runs/shufflenet_v2/model.fp16.onnx                     -      2.72         2.93   341.6
+runs/weednet_lite/model.fp16.onnx                      -      0.97         2.98   335.5
+runs/mobilenet_v3_small/model.int8.onnx                -      1.90         0.99  1014.4
+runs/shufflenet_v2/model.int8.onnx                     -      1.68         1.74   574.2
+runs/weednet_lite/model.int8.onnx                      -      0.70         1.93   519.3
+saved -> runs/benchmark_onnx.json
+All done. Launch the UI with: .venv/bin/streamlit run app.py
