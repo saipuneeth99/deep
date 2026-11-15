@@ -1,9 +1,6 @@
 # Virtual environment
 .venv/
 
-# Dataset (too large for git)
-data/
-
 # macOS
 .DS_Store
 
