@@ -1,32 +1,19 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
+# Virtual environment
 .venv/
-venv/
-env/
-ENV/
 
-# Datasets and large raw data (download via scripts/download_deepweeds.py)
+# Dataset (too large for git)
 data/
-!data/demo_field.mp4
 
-# OS generated files
+# macOS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 
-# IDE and tool configs
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
 .idea/
 .vscode/
-.claude/
-
-# Logs
-*.log
-runs/*.log
+*.swp
+*.swo
